@@ -1,0 +1,118 @@
+1) What are the new tags added in HTML5?
+ans: HTML5 introduced several new elements to provide more semantic meaning and enhance the structure of web documents. 
+     Some of the notable new tags added in HTML5 include:
+        1.<header>: 
+            Represents the header or introductory content of a section or the whole document.
+        2.<nav>: 
+            Represents a section of navigation links.
+        3.<section>: 
+            Represents a standalone section of content within a document.
+        4.<article>: 
+            Represents a self-contained composition that can be independently distributed or reusable, 
+            such as a blog post, news article, or forum post.
+        5.<aside>: 
+            Represents content that is tangentially related to the main content and can be considered 
+            separate from it, like sidebars or pull quotes.
+        6.<footer>: 
+            Represents the footer or closing content of a section or the whole document.
+        7.<main>:
+            Represents the main content area of the document.
+        8.<figure>: 
+            Represents self-contained content, such as images, illustrations, diagrams, code snippets, etc., 
+            that can be referenced within the document.
+        9.<figcaption>: 
+            Represents the caption or description of a figure.
+        10<time>: 
+            Represents a specific date, time, or duration.
+        11.<mark>: 
+            Represents highlighted or marked text.
+        12<meter>: 
+            Represents a scalar measurement within a known range, such as disk usage, completion percentage, etc.
+        13.<progress>: 
+            Represents the progress of a task or completion percentage.
+        14<details>: 
+            Represents a disclosure widget that can be used to show or hide additional content.
+        15<summary>: 
+            Represents a summary or caption for the <details> element.
+
+2) How to embed audio and video in a webpage?
+ans: To embed audio and video in a webpage, you can use the HTML5 <audio> and <video> elements.
+     Here's how you can use them:
+        Embedding Audio:
+            <audio src="path/to/audio-file.mp3" controls>
+            Your browser does not support the audio element.
+            </audio>
+        Embedding Video:
+            <video src="path/to/video-file.mp4" controls width="640" height="360">
+              Your browser does not support the video element.
+            </video>
+
+3) Semantic element in HTML5?
+ans: In HTML5, semantic elements are specific HTML tags that provide meaning and structure to
+     the content within a web page. These elements go beyond mere presentational formatting and aim to
+     convey the purpose and semantics of the content. Semantic elements enhance accessibility, 
+     SEO (Search Engine Optimization), and the overall understanding of the document structure. 
+     Here are some of the key semantic elements introduced in HTML5:
+        1.<header>: 
+            Represents the introductory content or header of a section or the whole document.
+        2.<nav>: 
+            Represents a section containing navigation links.
+        3.<main>: 
+            Represents the main content area of the document.
+        4.<section>: 
+            Represents a standalone section of content that is semantically distinct.
+        5.<article>: 
+            Represents a self-contained composition, such as a blog post, news article, or forum post.
+        6.<aside>: 
+            Represents content that is tangentially related to the main content, such as sidebars or pull quotes.
+        7.<footer>: 
+            Represents the footer or closing content of a section or the whole document.
+        8.<figure>: 
+            Represents self-contained content, such as images, illustrations, diagrams, code snippets, etc.,
+            that can be referenced within the document.
+        9.<figcaption>: 
+            Represents the caption or description of a figure.
+        10.<time>: 
+            Represents a specific date, time, or duration.
+        11.<mark>: 
+            Represents highlighted or marked text.
+        12.<meter>: 
+            Represents a scalar measurement within a known range, such as disk usage, completion percentage, etc.
+        13.<progress>: 
+            Represents the progress of a task or completion percentage.
+        14.<details>: 
+            Represents a disclosure widget that can be used to show or hide additional content.
+        15.<summary>: 
+            Represents a summary or caption for the <details> element.
+
+4) Canvas and SVG tags.
+ans: The <canvas> and <svg> tags are both HTML elements used for drawing and creating graphics on web pages,
+     but they have different underlying technologies and approaches.
+        1.<canvas>: 
+            The <canvas> element is part of the HTML5 specification and provides a drawing surface or 
+            bitmap canvas that can be used with JavaScript to create dynamic graphics and animations. 
+            It allows you to draw and manipulate pixels directly on the canvas using JavaScript's Canvas API. 
+            The canvas element does not retain the drawing commands or objects, so if you want to update 
+            or animate the canvas, you need to redraw the entire scene or specific elements on the canvas. 
+            The canvas element is primarily pixel-based and suitable for real-time rendering, 
+            interactive games, data visualization, and complex animations.
+                Example usage of <canvas>:
+                <canvas id="myCanvas" width="500" height="300"></canvas>
+            You can then use JavaScript to access the canvas and draw on it by getting the canvas context 
+            and using various methods to draw shapes, lines, text, images, etc.
+        2.<svg>: 
+            The <svg> element stands for Scalable Vector Graphics and is an XML-based markup language for 
+            creating vector graphics. Unlike the <canvas> element, SVG is resolution-independent, meaning 
+            it scales without losing quality. SVG graphics are described using XML elements and attributes, 
+            which define shapes, paths, text, gradients, transformations, and more. SVG allows you to create 
+            static or animated vector-based graphics that can be styled with CSS and scripted with JavaScript. 
+            It is suitable for creating icons, logos, illustrations, diagrams, and interactive visualizations.
+                Example usage of <svg>:
+                    <svg width="500" height="300">
+                    <circle cx="100" cy="100" r="50" fill="red" />
+                    <rect x="200" y="50" width="100" height="100" fill="blue" />
+                    <text x="300" y="200" fill="green">SVG Text</text>
+                    </svg>
+            In the above example, we create an SVG container with a width and height. 
+            Inside the <svg> element, we define various SVG shapes like circles, rectangles, and text using 
+            SVG-specific elements and attributes.
